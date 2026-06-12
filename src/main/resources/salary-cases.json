@@ -1,0 +1,22 @@
+[
+  {
+    "gross": -1,
+    "type": "EXCEPTION",
+    "exception": "LessThenZeroException"
+  },
+  {
+    "gross": 50,
+    "type": "OK",
+    "expected": 60.0
+  },
+  {
+    "gross": 100,
+    "type": "OK",
+    "expected": 120.0
+  },
+  {
+    "gross": 101,
+    "type": "EXCEPTION",
+    "exception": "BiggerThenHungredException"
+  }
+]
